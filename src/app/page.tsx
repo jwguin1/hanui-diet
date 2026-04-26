@@ -5,7 +5,6 @@ import IntroSection from "@/components/sections/IntroSection";
 import CompareSection from "@/components/sections/CompareSection";
 import ProcessSection from "@/components/sections/ProcessSection";
 import GoalSection from "@/components/sections/GoalSection";
-import BeforeAfterSection from "@/components/sections/BeforeAfterSection";
 import ReviewSection from "@/components/sections/ReviewSection";
 import SafetySection from "@/components/sections/SafetySection";
 import FAQSection from "@/components/sections/FAQSection";
@@ -25,7 +24,6 @@ export default function Home() {
       <CompareSection />
       <ProcessSection />
       <GoalSection />
-      <BeforeAfterSection />
       <ReviewSection />
       <SafetySection />
       <FAQSection />

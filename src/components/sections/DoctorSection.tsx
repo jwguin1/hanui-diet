@@ -1,12 +1,13 @@
+import Image from "next/image";
 import SectionTitle from "../SectionTitle";
 
 const doctors = [
-  { name: "장경진" },
-  { name: "남태훈" },
-  { name: "박건희" },
-  { name: "강민석" },
-  { name: "박동석" },
-  { name: "이명주" },
+  { name: "장경진", image: "/images/doctor-1.JPG" },
+  { name: "남태훈", image: "/images/doctor-2.JPG" },
+  { name: "박건희", image: "/images/doctor-3.png" },
+  { name: "강민석", image: "/images/doctor-4.jpg" },
+  { name: "박동석", image: "/images/doctor-5.png" },
+  { name: "이명주", image: "/images/doctor-6.png" },
 ];
 
 export default function DoctorSection() {
@@ -25,17 +26,14 @@ export default function DoctorSection() {
               key={i}
               className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
-              {/* Photo Placeholder */}
-              <div className="aspect-[3/4] bg-gradient-to-br from-sage-50 to-beige-100 flex items-center justify-center">
-                <div className="text-center text-warm-400">
-                  <div className="w-16 h-16 mx-auto mb-2 rounded-full bg-warm-200 flex items-center justify-center">
-                    <svg width="28" height="28" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-warm-400">
-                      <circle cx="14" cy="10" r="5" />
-                      <path d="M4 26c0-5 5-9 10-9s10 4 10 9" />
-                    </svg>
-                  </div>
-                  <p className="text-xs">원장 사진</p>
-                </div>
+              <div className="aspect-[3/4] relative bg-gradient-to-br from-sage-50 to-beige-100">
+                <Image
+                  src={doc.image}
+                  alt={`${doc.name} 원장`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 50vw, 33vw"
+                />
               </div>
               <div className="p-4 text-center">
                 <h3 className="text-lg font-bold text-warm-900">{doc.name}</h3>

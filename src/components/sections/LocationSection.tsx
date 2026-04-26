@@ -7,16 +7,31 @@ export default function LocationSection() {
         <SectionTitle subtitle="오시는 길" title="일산한의원 위치 안내" />
 
         <div className="bg-white rounded-2xl overflow-hidden shadow-sm">
-          {/* Map Placeholder */}
-          <div className="aspect-[16/9] md:aspect-[2/1] bg-warm-200 flex items-center justify-center">
-            <div className="text-center text-warm-400 p-8">
-              <svg width="48" height="48" fill="none" stroke="currentColor" strokeWidth="1.5" className="mx-auto mb-3 text-warm-400">
-                <path d="M24 4C16 4 10 10 10 17c0 10 14 27 14 27s14-17 14-27c0-7-6-13-14-13z" />
-                <circle cx="24" cy="17" r="5" />
-              </svg>
-              <p className="text-sm">네이버 지도 또는 카카오맵 임베드 영역</p>
+          {/* Naver Map Embed */}
+          <a
+            href="https://naver.me/IItclnGB"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block aspect-[16/9] md:aspect-[2/1] relative bg-warm-200 group"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.5!2d126.7435!3d37.6783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z7J2867CcIO2SieywtOygiA!5e0!3m2!1sko!2skr!4v1"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="absolute inset-0 w-full h-full"
+              title="일산한의원 위치"
+            />
+            {/* Overlay for click-through */}
+            <div className="absolute inset-0 bg-transparent group-hover:bg-black/5 transition-colors flex items-end justify-center pb-4 z-10">
+              <span className="bg-[#03C75A] text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                네이버 플레이스에서 길찾기
+              </span>
             </div>
-          </div>
+          </a>
 
           <div className="p-6 md:p-8">
             <div className="grid md:grid-cols-2 gap-8">
@@ -52,8 +67,8 @@ export default function LocationSection() {
                 <div>
                   <h3 className="font-bold text-warm-800 mb-2 flex items-center gap-2">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-coral-500">
-                      <circle cx="12" cy="12" r="10" />
-                      <path d="M8 12l2-6h4l2 6M7 12h10" />
+                      <rect x="2" y="6" width="20" height="12" rx="2" />
+                      <path d="M12 6V2M7 6V4M17 6V4" />
                     </svg>
                     교통
                   </h3>
@@ -123,7 +138,7 @@ export default function LocationSection() {
                 <span className="w-5 h-5 bg-white rounded flex items-center justify-center">
                   <span className="text-[#03C75A] font-bold text-[10px]">N</span>
                 </span>
-                네이버 플레이스
+                네이버 플레이스에서 길찾기
               </a>
               <a
                 href="https://pf.kakao.com/_eXXun"

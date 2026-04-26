@@ -6,11 +6,8 @@ export default function HeroSection() {
       <div className="max-w-5xl mx-auto px-4 py-16 md:py-24 w-full">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <p className="inline-block bg-sage-100 text-sage-600 px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
-              일산 · 고양 · 파주 다이어트 한약 전문
-            </p>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-warm-900 leading-tight mb-6">
-              일산에서 가장
+              맘카페에서 가장
               <br />
               유명한 다이어트 한약
               <br />
