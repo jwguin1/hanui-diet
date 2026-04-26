@@ -34,9 +34,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/og-image.jpg",
-        width: 1200,
-        height: 630,
+        url: "https://hanui-diet.vercel.app/og-image.jpg",
+        width: 1080,
+        height: 1080,
         alt: "일산감비환 - 다이어트 한약의 정수",
       },
     ],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "일산감비환 | 다이어트 한약의 정수",
     description:
       "일산, 고양, 파주에서 가장 많이 처방되는 다이어트 한약.",
-    images: ["/images/og-image.jpg"],
+    images: ["https://hanui-diet.vercel.app/og-image.jpg"],
   },
   robots: {
     index: true,
