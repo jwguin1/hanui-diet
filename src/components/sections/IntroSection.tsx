@@ -1,13 +1,5 @@
 import SectionTitle from "../SectionTitle";
 
-const productImages = [
-  { src: "/images/gambihwan-yellow.jpg", alt: "일산감비환 노랑 패키지" },
-  { src: "/images/gambihwan-pink.jpg", alt: "일산감비환 핑크 패키지" },
-  { src: "/images/gambihwan-package.jpg", alt: "일산감비환 전체 박스" },
-  { src: "/images/gambihwan-detail-1.jpg", alt: "일산감비환 상세 1" },
-  { src: "/images/gambihwan-detail-2.jpg", alt: "일산감비환 상세 2" },
-];
-
 export default function IntroSection() {
   return (
     <section id="gambi" className="py-20 md:py-28 bg-warm-50 scroll-mt-20">
@@ -59,33 +51,6 @@ export default function IntroSection() {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* 제품 이미지 갤러리 */}
-        <div className="mt-10">
-          <div className="grid grid-cols-3 md:grid-cols-5 gap-3">
-            {productImages.map((img, i) => (
-              <div key={i} className="aspect-square relative bg-gradient-to-br from-beige-100 to-sage-50 rounded-xl overflow-hidden">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 flex items-center justify-center text-warm-400">
-                  <div className="text-center p-2">
-                    <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5" className="mx-auto mb-1 text-warm-300">
-                      <path d="M12 4v16M4 12h16" />
-                    </svg>
-                    <p className="text-[10px] leading-tight">{img.alt}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="text-center text-warm-400 text-xs mt-3">
-            * 제품 이미지는 실제 제품과 다를 수 있습니다
-          </p>
         </div>
 
         <div className="mt-10 bg-sage-50 rounded-2xl p-6 md:p-8 text-center">

@@ -31,7 +31,6 @@ export default function Home() {
       <WhyAffordableSection />
       <DoctorSection />
       <LocationSection />
-      <TelehealthSection />
       <FinalCTASection />
     </main>
   );

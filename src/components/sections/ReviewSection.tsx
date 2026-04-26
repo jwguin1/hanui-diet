@@ -1,6 +1,6 @@
 import SectionTitle from "../SectionTitle";
 
-const naverReviews = [
+export const naverReviews = [
   {
     nickname: "ji**",
     label: "예약 후 방문",
@@ -10,7 +10,7 @@ const naverReviews = [
     photoCount: 3,
   },
   {
-    nickname: "健康**",
+    nickname: "mom**",
     label: "예약 후 방문",
     date: "2025.02 방문",
     text: "두 아이 키우면서 살이 너무 쪄서 고민이었는데 일산감비환 두 달 먹고 8키로 빠졌습니다. 처음엔 약 효과를 의심했는데 한 달 지나니까 옷이 맞기 시작하더라고요. 지인들이 다 어디서 다이어트 했냐고 물어봐요. 가격도 다른 곳보다 합리적이라 만족스러웠습니다.",
@@ -18,7 +18,7 @@ const naverReviews = [
     photoCount: 1,
   },
   {
-    nickname: "맘**",
+    nickname: "hap**",
     label: "예약 없이 이용",
     date: "2025.01 방문",
     text: "갱년기 다가오면서 살이 진짜 안 빠지더니 일산감비환 먹고 두달만에 6kg 감량했어요. 식단도 크게 안 바꿨고 운동도 평소처럼 했는데 변화가 있어서 신기했습니다. 야간진료 되는 것도 좋고 원장님이 친절하게 설명해주셔서 신뢰가 갔어요.",
@@ -26,7 +26,7 @@ const naverReviews = [
     photoCount: 2,
   },
   {
-    nickname: "hap**",
+    nickname: "lov**",
     label: "예약 후 방문",
     date: "2024.12 방문",
     text: "다이어트한약 처음에 한달치 시작했는데 4키로 빠져서 두번째 약 받으러 왔어요. 약이 강한 편이라 하루에 한 봉~한 봉 반 정도 복용했고 운동도 같이 했어요. 두 달째에는 추가로 3kg 빠져서 총 7kg 감량 성공! 유지하려고 한 달치 더 받았습니다. 저한테는 잘 맞는 것 같아요.",
@@ -34,7 +34,7 @@ const naverReviews = [
     photoCount: 4,
   },
   {
-    nickname: "lov**",
+    nickname: "sun**",
     label: "예약 후 방문",
     date: "2024.11 방문",
     text: "둘째 출산하고 1년 넘게 안 빠지던 살을 드디어 잡았네요. 75키로에서 두 달 만에 67키로로 8kg 감량. 주변 엄마들한테 다 추천하고 다닙니다. 비대면 진료도 가능해서 멀리 살아도 부담 없었어요. 약 받으러만 가면 되니까.",
@@ -42,7 +42,7 @@ const naverReviews = [
     photoCount: 0,
   },
   {
-    nickname: "sun**",
+    nickname: "joy**",
     label: "예약 없이 이용",
     date: "2024.10 방문",
     text: "직장 다니면서 운동할 시간 없어서 한약으로 도전했는데 결과가 좋았습니다. 두달 동안 9kg 빠졌고 무엇보다 식욕이 자연스럽게 줄어드는 게 좋았어요. 다른 다이어트약 부작용 때문에 무서웠는데 혈액검사도 해주시고 안전하게 관리받는 느낌이었습니다.",
@@ -67,7 +67,7 @@ export default function ReviewSection() {
               key={i}
               className="bg-white rounded-2xl p-5 md:p-6 shadow-sm border border-warm-100 flex flex-col"
             >
-              {/* Header: avatar + nickname + label */}
+              {/* Header */}
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-full bg-[#03C75A]/10 flex items-center justify-center flex-shrink-0">
                   <span className="text-[#03C75A] font-bold text-sm">{review.nickname[0].toUpperCase()}</span>

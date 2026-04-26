@@ -21,12 +21,14 @@ export default function Navigation() {
           <Link href="/reviews" className="text-warm-700 hover:text-coral-500 transition-colors text-sm">
             후기
           </Link>
-          <Link
-            href="/consult"
+          <a
+            href="https://forms.gle/x6ZoNh6zmnbpmsSAA"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-coral-500 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-coral-600 transition-colors"
           >
             상담신청
-          </Link>
+          </a>
         </div>
 
         {/* Mobile hamburger */}
@@ -62,13 +64,15 @@ export default function Navigation() {
           >
             후기
           </Link>
-          <Link
-            href="/consult"
+          <a
+            href="https://forms.gle/x6ZoNh6zmnbpmsSAA"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
             className="block py-3 text-coral-500 font-semibold"
           >
             상담신청
-          </Link>
+          </a>
         </div>
       )}
     </nav>

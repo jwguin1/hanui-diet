@@ -17,7 +17,7 @@ export default function DoctorSection() {
         <SectionTitle
           subtitle="의료진 소개"
           title="신뢰할 수 있는 의료진"
-          description="일산한의원은 6명의 한의사가 협진하는 시스템입니다. 다이어트, 통증, 자율신경, 피부 등 각 분야의 진료를 협진합니다."
+          description="연간 8,000건 이상의 다이어트 상담을 하는 6명의 실력있는 의료진"
         />
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
