@@ -3,24 +3,24 @@ import SectionTitle from "../SectionTitle";
 export default function SafetySection() {
   const points = [
     {
+      icon: "🔬",
+      title: "종합 혈액검사 + 자율신경계 검사",
+      desc: "첫 내원 시 객관적인 데이터를 확보하여 안전한 다이어트의 출발점을 만듭니다.",
+    },
+    {
+      icon: "📋",
+      title: "검사 결과 기반 안전한 처방 상담",
+      desc: "혈액검사 결과를 바탕으로 현재 건강 상태에 맞는 안전한 처방을 상담합니다.",
+    },
+    {
+      icon: "📊",
+      title: "1단계부터 시작하는 단계별 시스템",
+      desc: "1단계부터 시작하여 본인에게 맞는 단계로 조절할 수 있어 부작용을 최소화합니다.",
+    },
+    {
       icon: "🛡️",
-      title: "부작용 최소화",
-      desc: "천연 한약재를 사용하여 합성 약물 대비 부작용이 현저히 적습니다.",
-    },
-    {
-      icon: "⚖️",
-      title: "1알 단위 용량 조절",
-      desc: "몸 상태에 따라 1알 단위로 세밀하게 용량을 조절합니다. 불편하면 즉시 조절 가능합니다.",
-    },
-    {
-      icon: "👩‍⚕️",
-      title: "2주마다 경과 체크",
-      desc: "2주 간격으로 내원하여 체중, 건강 상태를 체크하고 처방을 미세 조정합니다.",
-    },
-    {
-      icon: "💊",
-      title: "GMP 인증 한약재",
-      desc: "식약처 기준을 충족하는 안전한 한약재만을 사용합니다.",
+      title: "부작용 최소화를 위한 처방 시스템",
+      desc: "단계별 처방 시스템으로 몸에 무리 없이 안전하게 다이어트를 진행합니다.",
     },
   ];
 
@@ -29,8 +29,8 @@ export default function SafetySection() {
       <div className="max-w-5xl mx-auto px-4">
         <SectionTitle
           subtitle="안전성"
-          title="안전하게, 건강하게 빼는 것이 원칙입니다"
-          description="일산한의원은 무리한 감량보다 안전한 체질 변화를 추구합니다."
+          title="안전한 다이어트를 위한 시스템"
+          description="일산한의원은 객관적인 검사 데이터를 기반으로 안전한 다이어트를 지향합니다."
         />
 
         <div className="grid md:grid-cols-2 gap-6">
