@@ -38,7 +38,7 @@ export default function ConsultPage() {
             </a>
 
             <a
-              href="tel:031-000-0000"
+              href="tel:031-976-7706"
               className="bg-coral-500 rounded-2xl p-6 md:p-8 flex items-center gap-4 text-white hover:shadow-md transition-shadow"
             >
               <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
@@ -48,7 +48,7 @@ export default function ConsultPage() {
               </div>
               <div>
                 <p className="font-bold text-lg">전화 상담</p>
-                <p className="text-white/80 text-sm">031-000-0000</p>
+                <p className="text-white/80 text-sm">031-976-7706</p>
               </div>
             </a>
           </div>

@@ -1,59 +1,101 @@
 import SectionTitle from "../SectionTitle";
 
-export default function ReviewSection() {
-  const reviews = [
-    {
-      name: "고양시 30대 엄마",
-      text: "출산 후 10kg이 안 빠져서 너무 스트레스였는데, 감비환 2개월 먹고 8kg 빠졌어요! 식욕이 자연스럽게 줄어서 편했어요.",
-    },
-    {
-      name: "일산 40대 직장맘",
-      text: "식욕억제제 부작용 때문에 고민하다가 한약으로 바꿨어요. 심장 두근거림 없이 살이 빠져서 정말 좋아요.",
-    },
-    {
-      name: "파주 30대 둘째맘",
-      text: "첫째 때는 자연스럽게 빠졌는데 둘째 낳고 도저히 안 빠져서 시작했어요. 2개월에 7kg 감량! 부종도 많이 빠졌어요.",
-    },
-    {
-      name: "일산 30대 워킹맘",
-      text: "운동할 시간이 없어서 한약만 먹었는데도 체중이 줄었어요. 무엇보다 부기가 빠지니까 얼굴이 달라졌다고 주변에서 난리에요.",
-    },
-    {
-      name: "고양시 40대",
-      text: "한약이라 부작용 걱정 없이 먹을 수 있어서 좋았어요. 속도 편하고 잠도 잘 자고, 건강해지면서 살이 빠지는 느낌이에요.",
-    },
-  ];
+const naverReviews = [
+  {
+    nickname: "김**",
+    date: "2025.03 방문",
+    text: "후기 내용이 들어갑니다. 실제 네이버 플레이스에 등록된 후기로 교체 예정입니다.",
+  },
+  {
+    nickname: "이**",
+    date: "2025.02 방문",
+    text: "후기 내용이 들어갑니다. 실제 네이버 플레이스에 등록된 후기로 교체 예정입니다.",
+  },
+  {
+    nickname: "박**",
+    date: "2025.01 방문",
+    text: "후기 내용이 들어갑니다. 실제 네이버 플레이스에 등록된 후기로 교체 예정입니다.",
+  },
+  {
+    nickname: "최**",
+    date: "2024.12 방문",
+    text: "후기 내용이 들어갑니다. 실제 네이버 플레이스에 등록된 후기로 교체 예정입니다.",
+  },
+  {
+    nickname: "정**",
+    date: "2024.11 방문",
+    text: "후기 내용이 들어갑니다. 실제 네이버 플레이스에 등록된 후기로 교체 예정입니다.",
+  },
+  {
+    nickname: "한**",
+    date: "2024.10 방문",
+    text: "후기 내용이 들어갑니다. 실제 네이버 플레이스에 등록된 후기로 교체 예정입니다.",
+  },
+];
 
+export default function ReviewSection() {
   return (
     <section className="py-20 md:py-28 bg-warm-50">
-      <div className="max-w-3xl mx-auto px-4">
+      <div className="max-w-4xl mx-auto px-4">
         <SectionTitle
-          subtitle="실제 후기"
-          title="직접 경험하신 분들의 이야기"
+          subtitle="복용 후기"
+          title="일산감비환을 경험한 분들의 이야기"
+          description="네이버 플레이스에 등록된 실제 후기입니다"
         />
 
-        <div className="space-y-4">
-          {reviews.map((r, i) => (
-            <div key={i} className="flex gap-3">
-              {/* Avatar */}
-              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-sage-100 flex items-center justify-center text-sage-500 text-sm font-bold">
-                {r.name[0]}
-              </div>
-              <div className="flex-1">
-                <p className="text-xs text-warm-500 mb-1">{r.name}</p>
-                <div className="kakao-bubble">
-                  <p className="text-warm-800 text-sm md:text-base leading-relaxed">
-                    {r.text}
-                  </p>
+        <div className="grid md:grid-cols-2 gap-4">
+          {naverReviews.map((review, i) => (
+            <div
+              key={i}
+              className="bg-white rounded-2xl p-5 md:p-6 shadow-sm border border-warm-100"
+            >
+              {/* Naver header */}
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-full bg-[#03C75A]/10 flex items-center justify-center">
+                    <span className="text-[#03C75A] font-bold text-xs">N</span>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-warm-800 text-sm">{review.nickname}</p>
+                    <p className="text-xs text-warm-400">{review.date}</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-1 bg-[#03C75A]/5 px-2 py-1 rounded">
+                  <span className="text-[#03C75A] text-xs font-bold">네이버</span>
                 </div>
               </div>
+
+              {/* Stars */}
+              <div className="flex gap-0.5 mb-3">
+                {[...Array(5)].map((_, j) => (
+                  <svg key={j} width="16" height="16" viewBox="0 0 20 20" fill="#FFB06B">
+                    <path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.69l5.34-.78L10 1z" />
+                  </svg>
+                ))}
+              </div>
+
+              {/* Review text */}
+              <p className="text-warm-700 text-sm leading-relaxed">
+                {review.text}
+              </p>
             </div>
           ))}
         </div>
 
-        <p className="text-center text-warm-400 text-xs mt-8">
-          * 실제 상담 내용을 바탕으로 재구성한 후기입니다.
-        </p>
+        {/* Naver Place CTA */}
+        <div className="mt-10 text-center">
+          <a
+            href="https://naver.me/IItclnGB"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-[#03C75A] text-white px-6 py-3 rounded-full font-bold hover:opacity-90 transition-opacity"
+          >
+            <span className="w-6 h-6 bg-white rounded flex items-center justify-center">
+              <span className="text-[#03C75A] font-bold text-xs">N</span>
+            </span>
+            네이버 플레이스에서 더 많은 후기 보기
+          </a>
+        </div>
       </div>
     </section>
   );
