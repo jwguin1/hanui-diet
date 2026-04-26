@@ -6,13 +6,16 @@ export default function HeroSection() {
       <div className="max-w-5xl mx-auto px-4 py-16 md:py-24 w-full">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-warm-900 leading-tight mb-6">
-              맘카페에서 가장
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-warm-900 leading-tight mb-4">
+              입소문으로만
               <br />
-              유명한 다이어트 한약
+              매년 8,000명이 처방받는
               <br />
               <span className="text-coral-500">일산감비환</span>
             </h1>
+            <p className="text-sage-600 font-semibold text-base md:text-lg mb-3">
+              다이어트 한약의 본질만을 담았습니다
+            </p>
             <p className="text-warm-600 text-lg md:text-xl mb-8 leading-relaxed">
               빠지지 않는 나잇살, 이제 일산감비환으로
               <br className="hidden md:block" />
