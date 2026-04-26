@@ -6,7 +6,7 @@ export default function CompareSection() {
     { label: "식욕 조절", left: "자연스러운 식욕 감소", right: "강제적 식욕 억제" },
     { label: "부작용", left: "최소 (1알 단위 조절)", right: "심장 두근거림, 불면, 구갈" },
     { label: "요요", left: "체질 개선으로 요요 최소화", right: "복용 중단 시 요요 빈번" },
-    { label: "맞춤 처방", left: "체질별 1:1 맞춤", right: "동일 성분 일괄 처방" },
+    { label: "처방 방식", left: "임상 데이터 기반 단계별 처방", right: "동일 성분 일괄 처방" },
     { label: "건강 효과", left: "소화, 부종, 피로 동시 개선", right: "체중 감량에만 집중" },
   ];
 

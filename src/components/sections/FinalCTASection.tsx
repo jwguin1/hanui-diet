@@ -11,9 +11,9 @@ export default function FinalCTASection() {
           일산감비환으로 시작하세요
         </h2>
         <p className="text-warm-600 text-base md:text-lg mb-10 leading-relaxed">
-          카카오톡으로 편하게 상담받으세요.
+          카카오톡 또는 비대면 진료 신청으로
           <br />
-          체질에 맞는 맞춤 상담을 무료로 해드립니다.
+          편하게 상담받으세요.
         </p>
         <div className="flex justify-center">
           <CTAButtons variant="large" />

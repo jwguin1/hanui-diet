@@ -35,11 +35,11 @@ export default function PricingSection() {
           <ul className="space-y-2 text-warm-600 text-sm">
             <li className="flex items-start gap-2">
               <span className="text-sage-500 mt-0.5">&#10003;</span>
-              1:1 체질 진단 및 맞춤 처방
+              1:1 체질 진단 및 단계별 처방
             </li>
             <li className="flex items-start gap-2">
               <span className="text-sage-500 mt-0.5">&#10003;</span>
-              2주 간격 경과 체크 및 처방 조절
+              복용 기간 중 상담 지원
             </li>
             <li className="flex items-start gap-2">
               <span className="text-sage-500 mt-0.5">&#10003;</span>

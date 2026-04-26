@@ -15,13 +15,13 @@ export default function ConsultPage() {
           <SectionTitle
             subtitle="상담신청"
             title="편한 방법으로 상담받으세요"
-            description="체질에 맞는 맞춤 상담을 무료로 해드립니다."
+            description="부담 없이 편하게 상담받으세요."
           />
 
           {/* Quick Contact */}
           <div className="grid md:grid-cols-2 gap-4 mb-12">
             <a
-              href="https://pf.kakao.com/_placeholder"
+              href="https://pf.kakao.com/_eXXun"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#FEE500] rounded-2xl p-6 md:p-8 flex items-center gap-4 hover:shadow-md transition-shadow"

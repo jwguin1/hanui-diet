@@ -10,18 +10,16 @@ export default function HeroSection() {
               일산 · 고양 · 파주 다이어트 한약 전문
             </p>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-warm-900 leading-tight mb-6">
-              일산, 고양, 파주
+              일산에서 가장
               <br />
-              엄마들이 선택한
-              <br />
-              다이어트 한약
+              유명한 다이어트 한약
               <br />
               <span className="text-coral-500">일산감비환</span>
             </h1>
             <p className="text-warm-600 text-lg md:text-xl mb-8 leading-relaxed">
-              출산 후 빠지지 않는 살, 이제 안전한 한약으로
+              빠지지 않는 나잇살, 이제 일산감비환으로
               <br className="hidden md:block" />
-              건강하게 관리하세요.
+              건강하게 관리하세요
             </p>
             <CTAButtons variant="large" />
           </div>
@@ -40,9 +38,9 @@ export default function HeroSection() {
               </div>
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg p-4 max-w-[200px]">
-              <p className="text-coral-500 font-bold text-2xl">2,000+</p>
-              <p className="text-warm-600 text-sm">누적 처방 건수</p>
+            <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg p-4 max-w-[220px]">
+              <p className="text-coral-500 font-bold text-2xl">20,000건 +</p>
+              <p className="text-warm-600 text-sm">누적 처방건수</p>
             </div>
           </div>
         </div>

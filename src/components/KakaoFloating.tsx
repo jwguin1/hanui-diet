@@ -3,7 +3,7 @@
 export default function KakaoFloating() {
   return (
     <a
-      href="https://pf.kakao.com/_placeholder"
+      href="https://pf.kakao.com/_eXXun"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-[#FEE500] hover:bg-[#F5DC00] text-[#3C1E1E] rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-105"

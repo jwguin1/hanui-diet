@@ -3,6 +3,7 @@ import EmpathySection from "@/components/sections/EmpathySection";
 import IntroSection from "@/components/sections/IntroSection";
 import CompareSection from "@/components/sections/CompareSection";
 import ProcessSection from "@/components/sections/ProcessSection";
+import GoalSection from "@/components/sections/GoalSection";
 import BeforeAfterSection from "@/components/sections/BeforeAfterSection";
 import ReviewSection from "@/components/sections/ReviewSection";
 import SafetySection from "@/components/sections/SafetySection";
@@ -20,6 +21,7 @@ export default function Home() {
       <IntroSection />
       <CompareSection />
       <ProcessSection />
+      <GoalSection />
       <BeforeAfterSection />
       <ReviewSection />
       <SafetySection />
