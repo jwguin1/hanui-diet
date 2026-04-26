@@ -13,7 +13,7 @@ export default function Footer() {
               <br />
               이마트 풍산점 3층
               <br />
-              사업자등록번호: 000-00-00000
+              사업자등록번호: 699-14-02824
               <br />
               전화:{" "}
               <a href="tel:031-976-7706" className="hover:text-white transition-colors">
