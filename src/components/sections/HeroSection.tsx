@@ -14,14 +14,14 @@ export default function HeroSection() {
         sizes="100vw"
       />
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-black/30" />
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 py-20 md:py-32 w-full">
         <div className="max-w-2xl">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4 drop-shadow-lg">
             입소문으로만
             <br />
-            매년 8,000명이 처방받는
+            매년 8,000건 이상 처방받는
             <br />
             <span className="text-coral-300">일산감비환</span>
           </h1>
@@ -37,7 +37,7 @@ export default function HeroSection() {
 
           {/* Floating badge */}
           <div className="mt-10 inline-block bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg p-4">
-            <p className="text-coral-500 font-bold text-2xl">20,000건 +</p>
+            <p className="text-coral-500 font-bold text-2xl">40,000건 +</p>
             <p className="text-warm-600 text-sm">누적 처방건수</p>
           </div>
         </div>
