@@ -36,7 +36,7 @@ export default function EmpathySection() {
           {painPoints.map((point, i) => (
             <div
               key={i}
-              className="bg-white rounded-2xl p-5 flex items-center gap-4 text-left shadow-sm"
+              className="bg-paper rounded-2xl p-5 flex items-center gap-4 text-left shadow-sm"
             >
               <span className="text-2xl flex-shrink-0">{point.emoji}</span>
               <p className="text-warm-700 text-base md:text-lg">{point.text}</p>

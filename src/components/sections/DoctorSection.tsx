@@ -24,7 +24,7 @@ export default function DoctorSection() {
           {doctors.map((doc, i) => (
             <div
               key={i}
-              className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              className="bg-paper rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="aspect-[3/4] relative bg-gradient-to-br from-sage-50 to-beige-100">
                 <Image

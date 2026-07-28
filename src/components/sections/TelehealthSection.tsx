@@ -22,7 +22,7 @@ export default function TelehealthSection() {
           href="https://forms.gle/x6ZoNh6zmnbpmsSAA"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-white text-coral-600 font-bold px-8 py-4 rounded-full text-lg hover:bg-warm-50 transition-colors shadow-lg hover:shadow-xl"
+          className="inline-flex items-center gap-3 bg-paper text-coral-600 font-bold px-8 py-4 rounded-full text-lg hover:bg-warm-50 transition-colors shadow-lg hover:shadow-xl"
         >
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />

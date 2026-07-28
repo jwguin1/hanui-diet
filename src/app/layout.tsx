@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import KakaoFloating from "@/components/KakaoFloating";
+import FloatingQuickLinks from "@/components/FloatingQuickLinks";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://diet.ilsanhan.com"),
@@ -78,7 +78,7 @@ export default function RootLayout({
         <Navigation />
         {children}
         <Footer />
-        <KakaoFloating />
+        <FloatingQuickLinks />
       </body>
     </html>
   );

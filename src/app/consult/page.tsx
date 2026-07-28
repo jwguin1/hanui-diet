@@ -54,7 +54,7 @@ export default function ConsultPage() {
           </div>
 
           {/* Online Form */}
-          <div className="bg-white rounded-2xl p-6 md:p-10 shadow-sm">
+          <div className="bg-paper rounded-2xl p-6 md:p-10 shadow-sm">
             <h3 className="text-xl font-bold text-warm-800 mb-6">온라인 상담 신청</h3>
 
             <form className="space-y-5">

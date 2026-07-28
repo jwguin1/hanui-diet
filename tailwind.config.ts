@@ -15,10 +15,28 @@ const config: Config = {
           200: "#FFE8D6",
           300: "#FDDCBF",
         },
-        ivory: {
-          50: "#FFFFF5",
-          100: "#FEFCF3",
-          200: "#FDF8E8",
+        // 웜 로즈/브라운 팔레트
+        cream: "#FBF8F3",
+        // cream 위에 얹는 카드용 오프화이트 — 순백(#FFFFFF) 대체
+        paper: "#FFFDFA",
+        blush: {
+          100: "#F4E6E0",
+          300: "#E8B4A8",
+          500: "#C4826F",
+        },
+        cocoa: {
+          500: "#6B4534",
+          700: "#4A3A30",
+          900: "#3E322A",
+        },
+        sand: {
+          line: "#EAE2D7",
+          300: "#DDD5C9",
+        },
+        ink: {
+          400: "#A99E93",
+          600: "#7C7269",
+          900: "#2E2721",
         },
         sage: {
           50: "#F5F9F4",

@@ -37,7 +37,7 @@ export default function SafetySection() {
           {points.map((p, i) => (
             <div
               key={i}
-              className="bg-white rounded-2xl p-6 md:p-8 shadow-sm"
+              className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm"
             >
               <span className="text-3xl mb-4 block">{p.icon}</span>
               <h3 className="text-lg font-bold text-warm-800 mb-2">{p.title}</h3>

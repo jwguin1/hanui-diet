@@ -6,7 +6,7 @@ export default function LocationSection() {
       <div className="max-w-4xl mx-auto px-4">
         <SectionTitle subtitle="오시는 길" title="일산한의원 위치 안내" />
 
-        <div className="bg-white rounded-2xl overflow-hidden shadow-sm">
+        <div className="bg-paper rounded-2xl overflow-hidden shadow-sm">
           {/* Map - 클릭 시 네이버 플레이스 이동 */}
           <a
             href="https://naver.me/IItclnGB"
@@ -24,7 +24,7 @@ export default function LocationSection() {
               <p className="text-warm-600 text-sm mb-1">이마트 풍산점 3층</p>
               <p className="text-warm-500 text-xs mb-4">경의중앙선 풍산역 2번 출구 도보 1분 · 이마트 4-7층 주차장 무료 3시간</p>
               <span className="inline-flex items-center gap-2 bg-[#03C75A] text-white px-5 py-2.5 rounded-full text-sm font-semibold group-hover:shadow-md transition-shadow">
-                <span className="w-5 h-5 bg-white rounded flex items-center justify-center">
+                <span className="w-5 h-5 bg-paper rounded flex items-center justify-center">
                   <span className="text-[#03C75A] font-bold text-[10px]">N</span>
                 </span>
                 네이버 플레이스에서 지도 보기
@@ -134,7 +134,7 @@ export default function LocationSection() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#03C75A] text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity"
               >
-                <span className="w-5 h-5 bg-white rounded flex items-center justify-center">
+                <span className="w-5 h-5 bg-paper rounded flex items-center justify-center">
                   <span className="text-[#03C75A] font-bold text-[10px]">N</span>
                 </span>
                 네이버 플레이스에서 길찾기

@@ -7,25 +7,34 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-warm-50/90 backdrop-blur-md border-b border-warm-200/50">
+    <nav className="fixed top-0 left-0 right-0 z-50 border-b-[0.5px] border-sand-line bg-cream/90 backdrop-blur-md">
       <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="text-lg font-bold text-warm-800">
-          일산한의원
+        <Link href="/" className="flex items-baseline gap-2">
+          <span className="text-[14px] font-medium tracking-[0.05em] text-blush-500">
+            ILSANHAN
+          </span>
+          <span className="text-[10px] text-ink-400">일산감비환</span>
         </Link>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/#gambi" className="text-warm-700 hover:text-coral-500 transition-colors text-sm">
+          <Link
+            href="/#gambi"
+            className="text-[11px] lg:text-[13px] text-[#5F564D] hover:text-blush-500 transition-colors"
+          >
             일산감비환
           </Link>
-          <Link href="/reviews" className="text-warm-700 hover:text-coral-500 transition-colors text-sm">
+          <Link
+            href="/reviews"
+            className="text-[11px] lg:text-[13px] text-[#5F564D] hover:text-blush-500 transition-colors"
+          >
             후기
           </Link>
           <a
             href="https://forms.gle/x6ZoNh6zmnbpmsSAA"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-coral-500 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-coral-600 transition-colors"
+            className="rounded-full bg-blush-300 px-4 py-1.5 text-[11px] lg:text-[13px] font-medium text-white transition-colors hover:bg-blush-500"
           >
             상담신청
           </a>
@@ -34,7 +43,7 @@ export default function Navigation() {
         {/* Mobile hamburger */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden p-2 text-warm-700"
+          className="md:hidden p-2 text-[#5F564D]"
           aria-label="메뉴 열기"
         >
           <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -49,18 +58,18 @@ export default function Navigation() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-warm-50 border-b border-warm-200 px-4 pb-4">
+        <div className="md:hidden border-b-[0.5px] border-sand-line bg-cream px-4 pb-4">
           <Link
             href="/#gambi"
             onClick={() => setIsOpen(false)}
-            className="block py-3 text-warm-700 border-b border-warm-100"
+            className="block border-b-[0.5px] border-sand-line py-3 text-[13px] text-[#5F564D]"
           >
             일산감비환
           </Link>
           <Link
             href="/reviews"
             onClick={() => setIsOpen(false)}
-            className="block py-3 text-warm-700 border-b border-warm-100"
+            className="block border-b-[0.5px] border-sand-line py-3 text-[13px] text-[#5F564D]"
           >
             후기
           </Link>
@@ -69,7 +78,7 @@ export default function Navigation() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
-            className="block py-3 text-coral-500 font-semibold"
+            className="block py-3 text-[13px] font-medium text-blush-500"
           >
             상담신청
           </a>

@@ -44,7 +44,7 @@ export default function FAQSection() {
 
         <div className="space-y-3">
           {faqs.map((faq, i) => (
-            <div key={i} className="bg-white rounded-2xl shadow-sm overflow-hidden">
+            <div key={i} className="bg-paper rounded-2xl shadow-sm overflow-hidden">
               <button
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
                 className="w-full p-5 md:p-6 flex items-center justify-between text-left"

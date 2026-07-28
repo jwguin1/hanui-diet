@@ -12,7 +12,7 @@ export default function PricingSection() {
 
         {/* 가격표 */}
         <div className="grid md:grid-cols-2 gap-6 mb-8">
-          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm text-center border-2 border-[#F5DC00]">
+          <div className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm text-center border-2 border-[#F5DC00]">
             <div className="inline-block bg-[#FEF9C3] text-[#A16207] px-3 py-1 rounded-full text-xs font-bold mb-4">
               노랑
             </div>
@@ -22,7 +22,7 @@ export default function PricingSection() {
               90,000<span className="text-lg">원</span>
             </p>
           </div>
-          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm text-center border-2 border-pink-300">
+          <div className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm text-center border-2 border-pink-300">
             <div className="inline-block bg-pink-50 text-pink-600 px-3 py-1 rounded-full text-xs font-bold mb-4">
               핑크
             </div>
@@ -35,7 +35,7 @@ export default function PricingSection() {
         </div>
 
         {/* 복용 기준 안내 */}
-        <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm mb-8">
+        <div className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm mb-8">
           <h3 className="font-bold text-warm-800 mb-4 text-center text-lg">복용 기준 안내</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-warm-50 rounded-xl p-4 text-center">

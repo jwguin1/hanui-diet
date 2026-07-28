@@ -23,7 +23,7 @@ export default function ReviewsPage() {
             {naverReviews.map((review, i) => (
               <div
                 key={i}
-                className="bg-white rounded-2xl p-5 md:p-6 shadow-sm border border-warm-100 flex flex-col"
+                className="bg-paper rounded-2xl p-5 md:p-6 shadow-sm border border-warm-100 flex flex-col"
               >
                 {/* Header */}
                 <div className="flex items-center gap-3 mb-3">
@@ -80,7 +80,7 @@ export default function ReviewsPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#03C75A] text-white px-8 py-4 rounded-full font-bold text-lg hover:opacity-90 transition-opacity shadow-md"
             >
-              <span className="w-7 h-7 bg-white rounded flex items-center justify-center">
+              <span className="w-7 h-7 bg-paper rounded flex items-center justify-center">
                 <span className="text-[#03C75A] font-bold text-xs">N</span>
               </span>
               네이버 플레이스에서 더 많은 후기 보기

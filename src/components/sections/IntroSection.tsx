@@ -10,7 +10,7 @@ export default function IntroSection() {
         />
 
         <div className="space-y-6">
-          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
+          <div className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-coral-100 text-coral-600 flex items-center justify-center font-bold text-lg">
                 1
@@ -24,7 +24,7 @@ export default function IntroSection() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
+          <div className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-coral-100 text-coral-600 flex items-center justify-center font-bold text-lg">
                 2
@@ -38,7 +38,7 @@ export default function IntroSection() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
+          <div className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-coral-100 text-coral-600 flex items-center justify-center font-bold text-lg">
                 3

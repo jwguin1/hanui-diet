@@ -19,7 +19,7 @@ export default function CompareSection() {
           description="단순히 살만 빼는 것이 아닌, 건강하게 체질을 바꿔드립니다."
         />
 
-        <div className="bg-white rounded-2xl overflow-hidden shadow-sm">
+        <div className="bg-paper rounded-2xl overflow-hidden shadow-sm">
           {/* Header */}
           <div className="grid grid-cols-3 text-center font-bold text-sm md:text-base">
             <div className="p-4 bg-warm-200 text-warm-700">비교 항목</div>
@@ -32,7 +32,7 @@ export default function CompareSection() {
             <div
               key={i}
               className={`grid grid-cols-3 text-center text-sm md:text-base ${
-                i % 2 === 0 ? "bg-white" : "bg-warm-50"
+                i % 2 === 0 ? "bg-paper" : "bg-warm-50"
               }`}
             >
               <div className="p-4 font-semibold text-warm-700 border-r border-warm-100">

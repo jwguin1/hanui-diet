@@ -31,7 +31,7 @@ export default function WhyAffordableSection() {
           {reasons.map((r, i) => (
             <div
               key={i}
-              className="bg-white rounded-2xl p-6 md:p-8 shadow-sm flex items-start gap-5"
+              className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm flex items-start gap-5"
             >
               <span className="text-3xl flex-shrink-0">{r.icon}</span>
               <div>

@@ -45,7 +45,7 @@ export default function ProcessSection() {
           {steps.map((s, i) => (
             <div
               key={i}
-              className="bg-white rounded-2xl p-6 md:p-8 shadow-sm flex gap-6 items-start"
+              className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm flex gap-6 items-start"
             >
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-coral-100 text-coral-600 flex items-center justify-center font-bold text-sm">
                 {i + 1}

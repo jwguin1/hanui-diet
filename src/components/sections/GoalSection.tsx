@@ -12,7 +12,7 @@ export default function GoalSection() {
 
         <div className="grid md:grid-cols-2 gap-6">
           {/* 과체중 */}
-          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
+          <div className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-full bg-coral-100 flex items-center justify-center">
                 <span className="text-coral-500 font-bold text-lg">A</span>
@@ -28,7 +28,7 @@ export default function GoalSection() {
           </div>
 
           {/* 정상체중 → 마른체중 */}
-          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
+          <div className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-full bg-sage-100 flex items-center justify-center">
                 <span className="text-sage-600 font-bold text-lg">B</span>
