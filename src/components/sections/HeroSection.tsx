@@ -11,7 +11,7 @@ const hasProductImage = fs.existsSync(
 );
 
 const METRICS = [
-  { value: "40,000+", label: "누적 처방" },
+  { value: "9,000", label: "누적 처방" },
   { value: "6명", label: "의료진" },
   { value: "비대면", label: "진료 가능" },
 ];
@@ -62,7 +62,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="mt-4 text-[13px] leading-[1.85] text-ink-600 lg:text-[15px]">
-            누적 40,000건의 처방 데이터로 정립한 다이어트 한약
+            누적 9,000건의 처방 데이터로 정립한 다이어트 한약
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">

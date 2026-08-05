@@ -16,7 +16,7 @@ export default function IntroSection() {
                 1
               </div>
               <div>
-                <h3 className="text-lg font-bold text-warm-800 mb-2">연간 8,000건 이상의 처방 데이터 축적</h3>
+                <h3 className="text-lg font-bold text-warm-800 mb-2">누적 9,000건의 처방 데이터 축적</h3>
                 <p className="text-warm-600 leading-relaxed">
                   일산한의원은 오랜 기간 다이어트 한약을 처방하며 방대한 양의 임상 데이터를 축적해왔습니다.
                 </p>
@@ -58,7 +58,7 @@ export default function IntroSection() {
             일산, 고양시, 파주에서 가장 많이 처방되는 다이어트 한약
           </p>
           <p className="text-warm-600">
-            연간 8,000건 이상의 처방이 증명하는 일산감비환의 효과
+            누적 9,000건의 처방이 증명하는 일산감비환의 효과
           </p>
         </div>
       </div>
