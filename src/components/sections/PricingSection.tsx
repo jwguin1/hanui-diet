@@ -19,7 +19,7 @@ export default function PricingSection() {
             <h3 className="text-lg font-bold text-warm-800 mb-1">일산감비환 (노랑)</h3>
             <p className="text-warm-500 text-sm mb-4">1상자 100포</p>
             <p className="text-3xl md:text-4xl font-bold text-warm-900">
-              90,000<span className="text-lg">원</span>
+              9만<span className="text-lg">원</span>
             </p>
           </div>
           <div className="bg-paper rounded-2xl p-6 md:p-8 shadow-sm text-center border-2 border-pink-300">
@@ -29,7 +29,7 @@ export default function PricingSection() {
             <h3 className="text-lg font-bold text-warm-800 mb-1">일산감비환 (핑크)</h3>
             <p className="text-warm-500 text-sm mb-4">1상자 100포</p>
             <p className="text-3xl md:text-4xl font-bold text-warm-900">
-              110,000<span className="text-lg">원</span>
+              11만<span className="text-lg">원</span>
             </p>
           </div>
         </div>
@@ -47,12 +47,13 @@ export default function PricingSection() {
               <p className="text-2xl font-bold text-warm-800">50일 분량</p>
             </div>
             <div className="bg-coral-50 rounded-xl p-4 text-center">
-              <p className="text-warm-500 text-sm mb-1">1개월 비용 (하루 2회 기준)</p>
-              <p className="text-2xl font-bold text-coral-500">약 30,000원</p>
+              <p className="text-warm-500 text-sm mb-1">30일 사용분 환산 (하루 2포)</p>
+              <p className="text-2xl font-bold text-coral-500">노랑 5만4천원<br />핑크 6만6천원</p>
             </div>
           </div>
         </div>
 
+        <p className="mb-6 text-center text-sm text-warm-600">실제 구매는 1상자 단위이며, 복용량은 진료 후 정합니다.</p>
         <div className="text-center">
           <CTAButtons />
         </div>
